@@ -1,23 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
 
-//P R I M A R Y C O L O R//
+//PRIMARY COLOR//
 $primary1:#FFFFFF;
 $primary1:#504242;
 
-//T E X T///
-$text0: #FAFAFA;
+//TEXT///
 $text1:#D37643;
 $text2:#504242;
 $text3:#D37643;
 $ButtonCARD:#504242;
 
-//S e c o n d a r y C O l o r//
+//Secondary COlor//
 $Second1:#F5F5F5;
 $Second2:#FEFAF1;
 $Second3:#DB4444;
 
-//O t h e r C o l  o r s//
-$Button0:#000000;
+//Other Colors//
 $Button1:#47B486;
 $Button2:#DB4444;
 $Hoverbutton:#E2B93B;
@@ -25,18 +23,14 @@ $HOverButton:#EB5757;
 
 
 
-//b a c k g r o u n d  c o l o r//
+//background color//
 $bg:#FFFFFF;
-
-
-// M E D I A//
-
 
 
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 135px;
+    padding: ;
 }
 
 
@@ -50,180 +44,11 @@ p {
 }
 
 
-.nav_black {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background: $Button0;
-
-    .text_black {
-
-
-        p {
-            color: $text0;
-            size: 14px;
-        }
-    }
-
-    .language {
-        padding: 15px;
 
 
 
-        select {
-            border: none;
-            background: $Button0;
-            color: $text0;
-        }
-    }
-}
 
 
-.nav_menu {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    flex-wrap: nowrap;
-    padding: 15px 0 5px 0;
-    border-bottom: 1px solid black;
-
-    svg {
-        display: none;
-    }
-
-    .bolt {
-        display: flex;
-        align-items: center;
-
-        p {
-            font-size: 24px;
-            font-weight: 700;
-            margin: 0;
-        }
-    }
-
-    .nav_bar {
-
-        display: flex;
-        gap: 75px;
-
-        .nav_menu_select {
-            display: none;
-        }
-
-    }
-
-    .search {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-
-
-        input {
-            width: 243px;
-            height: 38px;
-            background: $Second1;
-            border: none;
-
-
-            &::placeholder {
-                font-size: 12px;
-                text-align: center;
-            }
-        }
-
-        i {
-            width: 20px;
-        }
-
-    }
-}
-
-.main {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-
-    .main_left_text {
-        border-right: 1px solid black;
-
-        p {
-            padding: 0px 60px 0 0;
-        }
-    }
-
-
-}
-
-@media screen and (max-width: 1380px) {
-    .main {
-        .main_left_text {
-            border-right: $Button2;
-        }
-    }
-}
-
-@media screen and (max-width: 1339px) {
-    .nav_menu {
-        svg {
-            display: block;
-        }
-    }
-
-    .main {
-        .main_left_text {
-            display: flex;
-            justify-content: left;
-
-            p {
-                display: none;
-            }
-        }
-
-        .main_right_photo {
-            width: 100%;
-
-            img {
-                width: 100%;
-            }
-        }
-    }
-
-}
-
-@media screen and (max-width: 1060px) {
-    .nav_menu {
-
-        .nav_bar {
-            gap: 30px
-        }
-    }
-
-}
-
-@media screen and (max-width: 930px) {
-    .nav_menu {
-        .nav_bar {
-            p {
-
-                display: none;
-            }
-
-            .nav_menu_select {
-                display: block;
-
-                select {
-                    border: none;
-                }
-            }
-
-
-
-        }
-
-    }
-}
 
 
 
